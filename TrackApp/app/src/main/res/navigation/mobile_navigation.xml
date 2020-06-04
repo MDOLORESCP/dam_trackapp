@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_listado_tareas">
+
+    <fragment
+        android:id="@+id/nav_listado_tareas"
+        android:name="dam.trackapp.ui.home.ListadoTareasFragment"
+        android:label="@string/menu_personal"
+        tools:layout="@layout/fragment_listado_tareas">
+        <argument
+            android:name="groupId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_personal"
+        android:name="dam.trackapp.ui.home.ListadoTareasFragment"
+        android:label="@string/menu_personal"
+        tools:layout="@layout/fragment_listado_tareas">
+        <argument
+            android:name="groupId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_nuevo_grupo"
+        android:name="dam.trackapp.GrupoActivity"
+        android:label="Nuevo Grupo"
+        tools:layout="@layout/activity_grupo">
+    </activity>
+<!--    <activity-->
+<!--        android:id="@+id/nav_nuevo_grupo"-->
+<!--        android:name="com.example.android.persistence.ui.ProductDetailsActivity"-->
+<!--        android:label="Product Details"-->
+<!--        tools:layout="@layout/product_details_host">-->
+
+<!--        <argument-->
+<!--            android:name="product_id"-->
+<!--            app:argType="integer" />-->
+
+<!--    </activity>-->
+</navigation>

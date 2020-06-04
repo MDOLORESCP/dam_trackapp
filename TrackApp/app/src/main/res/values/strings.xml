@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TrackApp</string>
+
+    <string name="menu_personal">Personal</string>
+    <string name="menu_nuevo_grupo">Crear Grupo</string>
+
+    <string name="title_activity_maps">Mapa</string>
+
+    <string name="email">Email</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="guardar">Guardar</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="recuperar">Recuperar</string>
+    <string name="crear_usuario">Crear Cuenta</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="nombre">Nombre</string>
+    <string name="nueva_categoria">Añadir Categoría</string>
+    <string name="usuario_eliminar">Eliminar Cuenta</string>
+    <string name="usuario_cambiar_contrasena">Cambiar Contraseña</string>
+    <string name="usuario_cerrar_sesion">Cerrar Sesión</string>
+    <string name="agregar_usuario">Añadir Usuario</string>
+    <string name="usuario">Usuario</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="categoria">Categoría</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+
+    <string name="error_email">Debe introducir un email válido.</string>
+    <string name="error_contrasena">Debe introducir una contraseña de almenos 8 caracteres y que contenga al menos un número.</string>
+    <string name="error_nombre_usuario">El nombre del usuario debe ser una cadena superior a 4 caracteres.</string>
+    <string name="error_datos_usuario_login">Debe introducir un email y contraseña válidos.</string>
+    <string name="error_usuario_no_encontrado">No se ha encontrado el usuario.</string>
+    <string name="error_carga_datos">Ocurrió un error al cargar los datos.</string>
+    <string name="error_nombre_categoria">El nombre de la categoría debe ser una cadena superior a 4 caracteres.</string>
+    <string name="error_crear_usuario">Error al crear usuario.</string>
+    <string name="error_eliminar_usuario">Error al eliminar usuario.</string>
+    <string name="error_nombre_grupo">Debe introducir un nombre de longitud mayor a 4 caracteres.</string>
+    <string name="error_email_no_verificado">Debe verificar su email antes de iniciar sesión.</string>
+    <string name="error_inicio_sesion">Error al iniciar sesión.</string>
+    <string name="error_permiso_GPS">No hay permiso para acceder al GPS.</string>
+    <string name="usuario_agregado">Usuario añadido correctamente.</string>
+    <string name="mensaje_usuario_eliminar">Si elimina su cuenta perderá el acceso. ¿Desea continuar?</string>
+    <string name="usuario_eliminado">Usuario eliminado correctamente.</string>
+    <string name="email_cambio_contrasena_enviado">Se ha enviado un email para cambiar la contraseña.</string>
+    <string name="email_recuperacion_enviado">Se ha enviado un email para recuperar la cuenta.</string>
+    <string name="error_guardado">Error al guardar.</string>
+    <string name="guardado">Guardado correctamente.</string>
+    <string name="finalizado">Finalizado correctamente.</string>
+    <string name="error_finalizar">Error al finalizar.</string>
+    <string name="error_rellenar_todos_los_campos">Error al guardar.</string>
+</resources>
